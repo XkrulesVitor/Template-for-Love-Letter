@@ -58,7 +58,6 @@ export const siteData = {
 **1 - Clone o diretório:**
 `git clone https://github.com/XkrulesVitor/Template-for-Love-Letter.git`
 
-
 **2 - Instale as dependências:**
 `npm install`
 
