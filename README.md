@@ -1,5 +1,7 @@
 # 💌 Interactive Love Letter Template
 
+![Uma Carta para Você](https://github.com/user-attachments/assets/844140c6-9bb4-466d-b6e7-e66748555ae7)
+
 Um presente digital delicado, interativo e totalmente personalizável feito com **Next.js**, **TailwindCSS** e **Lottie Animations**. Este projeto foi desenhado para ser um template de "Carta de Amor", onde qualquer pessoa pode criar uma experiência única editando apenas um arquivo de configuração.
 
 ## ✨ Funcionalidades
