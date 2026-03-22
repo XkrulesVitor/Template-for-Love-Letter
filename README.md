@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💌 Interactive Love Letter Template
 
-## Getting Started
+Um presente digital delicado, interativo e totalmente personalizável feito com **Next.js**, **TailwindCSS** e **Lottie Animations**. Este projeto foi desenhado para ser um template de "Carta de Amor", onde qualquer pessoa pode criar uma experiência única editando apenas um arquivo de configuração.
 
-First, run the development server:
+## ✨ Funcionalidades
+- **Envelope Interativo:** Animação de abertura com rotação 3D via CSS.
+- **Explosão de Corações:** Efeito visual de impacto ao abrir a carta.
+- **Carrossel de Memórias:** Galeria de fotos com transição suave (fade).
+- **Trilha Sonora:** Player de música com controle de volume e ícone animado.
+- **Efeito de Coração:** Cliques na tela geram partículas mágicas.
+- **Configuração Centralizada:** Altere textos, fotos e músicas em um único lugar.
 
-```bash
+---
+
+## 🚀 Como Personalizar (Passo a Passo)
+
+### 1. Arquivos de Mídia
+Coloque seus arquivos na pasta `public/`:
+- **Música:** Adicione seu arquivo `.mp3` e nomeie como `music.mp3`.
+- **Fotos do Carrossel:** Adicione as fotos que desejar (ex: `01.jpg`, `02.jpg`, etc.).
+- **Foto Final:** Adicione a foto para a moldura Polaroid e nomeie como `end.jpg`.
+
+### 2. Conteúdo e Textos
+Não é necessário mexer no código principal. Abra o arquivo:
+`src/config/data.ts`
+
+Lá você encontrará o seguinte objeto para editar:
+
+export const siteData = {
+  userName: "NOME DA PESSOA",      // O nome que aparece em destaque na carta
+  letterText: "Seu texto aqui...", // A mensagem principal (aceita \n para quebras de linha)
+  polaroidCaption: "Legenda...",   // Frase que aparece embaixo da foto final
+  musicPath: "/music.mp3",         // Caminho do arquivo de áudio
+  finalPhoto: "/end.jpg",          // Caminho da foto Polaroid
+  carouselImages: [                // Lista com todas as fotos. A quantidade de imagens que adicionar aqui vai ser a do Carrossel
+    "/01.jpg",
+    "/02.jpg",
+    "/03.jpg"
+  ],
+};
+
+Para adicionar novas imagens, basta seguir a contagem no 'carouselImages' seguindo o padrão: "/XX.jpg", assim pode adicionar quantas imagens quiser.
+
+## 🛠️ Tecnologias Utilizadas
+- Next.js 14 (App Router)
+- Tailwind CSS (Estilização)
+- Lottie React (Animações JSON)
+- TypeScript (Segurança no código)
+
+## 📦 Instalação
+1 - Clone o repositório:
+git clone [https://github.com/XkrulesVitor/Template-for-Love-Letter]
+
+2 - Instale as dependências:
+npm install
+
+3 - Inicie o servidor de desenvolvimento:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4 - Acesse no navegador para testes:
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5 - Depois de editado, suba para seu host.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 Licença
+Este projeto é de uso livre para fins pessoais. Se for utilizar como base para algo público, sinta-se à vontade para dar os créditos!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Criado com ❤️ por XkrulesVitor.
