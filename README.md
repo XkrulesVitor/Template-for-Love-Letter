@@ -39,7 +39,8 @@ export const siteData = {
     "/02.jpg",
     "/03.jpg"
   ],
-};```
+};
+```
 
 ## 🛠️ Tecnologias Utilizadas
 - Next.js 14 (App Router)
