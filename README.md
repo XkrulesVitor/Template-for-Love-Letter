@@ -21,11 +21,13 @@ Coloque seus arquivos na pasta `public/`:
 - **Foto Final:** Adicione a foto para a moldura Polaroid e nomeie como `end.jpg`.
 
 ### 2. Conteúdo e Textos
-Não é necessário mexer no código principal. Abra o arquivo:
-`src/config/data.ts`
+
+Não é necessário mexer no código principal. Abra o arquivo:  
+`src/config/data.ts`  
 
 Lá você encontrará o seguinte objeto para editar:
 
+```typescript
 export const siteData = {
   userName: "NOME DA PESSOA",      // O nome que aparece em destaque na carta
   letterText: "Seu texto aqui...", // A mensagem principal (aceita \n para quebras de linha)
@@ -39,8 +41,6 @@ export const siteData = {
   ],
 };
 
-Para adicionar novas imagens, basta seguir a contagem no 'carouselImages' seguindo o padrão: "/XX.jpg", assim pode adicionar quantas imagens quiser.
-
 ## 🛠️ Tecnologias Utilizadas
 - Next.js 14 (App Router)
 - Tailwind CSS (Estilização)
@@ -48,19 +48,21 @@ Para adicionar novas imagens, basta seguir a contagem no 'carouselImages' seguin
 - TypeScript (Segurança no código)
 
 ## 📦 Instalação
-1 - Clone o repositório:
-git clone [https://github.com/XkrulesVitor/Template-for-Love-Letter]
 
-2 - Instale as dependências:
-npm install
+**1 - Clone o diretório:**
+`git clone https://github.com/XkrulesVitor/Template-for-Love-Letter.git`
 
-3 - Inicie o servidor de desenvolvimento:
-npm run dev
 
-4 - Acesse no navegador para testes:
-http://localhost:3000
+**2 - Instale as dependências:**
+`npm install`
 
-5 - Depois de editado, suba para seu host.
+**3 - Inicie o servidor de desenvolvimento:**
+`npm run dev`
+
+**4 - Acesse no navegador para testes:**
+`http://localhost:3000`
+
+**5 - Depois de editado suba para seu host.**
 
 ## 📜 Licença
 Este projeto é de uso livre para fins pessoais. Se for utilizar como base para algo público, sinta-se à vontade para dar os créditos!
