@@ -39,7 +39,7 @@ export const siteData = {
     "/02.jpg",
     "/03.jpg"
   ],
-};
+};```
 
 ## 🛠️ Tecnologias Utilizadas
 - Next.js 14 (App Router)
@@ -48,7 +48,7 @@ export const siteData = {
 - TypeScript (Segurança no código)
 
 ## 📦 Instalação
-
+```
 **1 - Clone o diretório:**
 `git clone https://github.com/XkrulesVitor/Template-for-Love-Letter.git`
 
@@ -63,7 +63,7 @@ export const siteData = {
 `http://localhost:3000`
 
 **5 - Depois de editado suba para seu host.**
-
+```
 ## 📜 Licença
 Este projeto é de uso livre para fins pessoais. Se for utilizar como base para algo público, sinta-se à vontade para dar os créditos!
 
