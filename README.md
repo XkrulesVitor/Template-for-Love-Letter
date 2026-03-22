@@ -41,12 +41,15 @@ export const siteData = {
   ],
 };
 ```
+---
 
 ## 🛠️ Tecnologias Utilizadas
 - Next.js 14 (App Router)
 - Tailwind CSS (Estilização)
 - Lottie React (Animações JSON)
 - TypeScript (Segurança no código)
+
+---
 
 ## 📦 Instalação
 ```
@@ -65,6 +68,9 @@ export const siteData = {
 
 **5 - Depois de editado suba para seu host.**
 ```
+
+---
+
 ## 📜 Licença
 Este projeto é de uso livre para fins pessoais. Se for utilizar como base para algo público, sinta-se à vontade para dar os créditos!
 
